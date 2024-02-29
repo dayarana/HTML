@@ -1,8 +1,8 @@
 header{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    background-color: rgb(149, 223, 252);
+    justify-content:space-evenly;
+    background-color: rgb(83, 196, 201);
     width: 100%;
     img{
         width: 80px;
@@ -33,13 +33,15 @@ h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h3{
+    display: flex;
     font-size: 60px;
-    color: rgb(17, 17, 233);
+    color: rgb(61, 190, 89);
     font-family: cursive;
+    justify-content: center;
 }
 h4{
     font-size: 40px;
-    color: rgb(2, 83, 46);
+    color: rgb(243, 164, 46);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 p{
@@ -49,11 +51,10 @@ p{
 }
 p1{
     font-size: 20px;
-    color: rgb(8, 7, 7);
+    color: rgb(42, 20, 236);
     font-family: "Indie Flower", cursive;
     font-style: normal;
     
-      
 }
 .contenedor{
     display: flex;
@@ -69,6 +70,7 @@ p1{
     justify-content: center;
     align-items: center;
     height: 100%;
+    margin: 30px 60px 30px 60px;
 
 }
 .caja img{
@@ -77,17 +79,26 @@ p1{
 .caja p{
     font-size: 15px;
 }
+.segurito{
+    margin: 30px 60px 30px 60px;
+}
+.base{
+    margin: 30px 60px 30px 60px;
+}
 .uno{
-    background-color: rgb(114, 189, 192);
+
     display: flex;
-    width: 100%;
-    margin: 30px 0 30px 0;
+    width: 90%;
     justify-content: space-between;
+    background-color: rgb(83, 196, 201);
+    margin: 30px 60px 30px 60px;
+    align-items: center;
 
 }
 .uno img{
     width: 60%;
 }
+
 #video{
     width: 100%;
     display: flex;
@@ -95,6 +106,7 @@ p1{
     align-items: center;
     background-color: darkcyan;
     justify-content: center;
+    margin: 60px 0 60px 0;
 }
 #video iframe{
     padding: 10px;
@@ -108,4 +120,3 @@ footer{
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Indie+Flower&display=swap')
-
