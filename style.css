@@ -1,0 +1,111 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(149, 223, 252);
+    width: 100%;
+    img{
+        width: 80px;
+        display: flex;
+        justify-content: center;
+    }
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+header ul li{
+    margin: 10px;
+}
+img{
+    width: 170px;
+}
+h1{
+    font-size: 60px;
+    color: rgb(237, 237, 247);
+    font-family: cursive;
+}
+h2{
+    font-size: 40px;
+    color: rgb(132, 15, 143);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h3{
+    font-size: 60px;
+    color: rgb(17, 17, 233);
+    font-family: cursive;
+}
+h4{
+    font-size: 40px;
+    color: rgb(2, 83, 46);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+    font-size: 20px;
+    color: rgb(5, 5, 5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p1{
+    font-size: 20px;
+    color: rgb(8, 7, 7);
+    font-family: "Indie Flower", cursive;
+    font-style: normal;
+    
+      
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: baseline;
+    
+}
+.caja{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+.caja img{
+    border-radius: 50%;
+}
+.caja p{
+    font-size: 15px;
+}
+.uno{
+    background-color: rgb(114, 189, 192);
+    display: flex;
+    width: 100%;
+    margin: 30px 0 30px 0;
+    justify-content: space-between;
+
+}
+.uno img{
+    width: 60%;
+}
+#video{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: darkcyan;
+    justify-content: center;
+}
+#video iframe{
+    padding: 10px;
+    margin: 10px;
+}
+footer{
+    background-color: rgb(199, 197, 197);
+    width: 100%;
+    display: flex;
+    flex-direction:row-reverse
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Indie+Flower&display=swap')
+
